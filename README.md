@@ -13,5 +13,12 @@ The among_us.ahk script is a AutoHotKey script that binds ```CTRL+ALT+INS``` to 
 ```CTRL+ALT+HOME``` is bound to send ```$unmutechannel``` into the text channel currently open in Discord.
 
 **INSTRUCTIONS** </br>
-In the root directory of the repository, create a .env file with the following lines: </br>
-```DISCORD_TOKEN={your-bot-token}``` 
+1. Make a bot on the Discord Developer Portal. </br>
+
+2. Install discord.py from pip </br>
+   ```pip install discord``` </br>
+3. Install dotenv from pip </br>
+   ```pip install python-dotenv``` </br>
+4. In the root directory of the repository, create a .env file with the following lines: </br>
+   ```DISCORD_TOKEN={your-bot-token}``` 
+5. Run ```bot.py``` to start the bot, run ```bot.pyw``` to hide the console window while the bot is running.
