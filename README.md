@@ -11,3 +11,7 @@ Simple Discord bot programmed in Python that adds chat commands to mute and unmu
                        
 The among_us.ahk script is a AutoHotKey script that binds ```CTRL+ALT+INS``` to send ```$mutechannel``` into the text channel currently open in Discord. </br>
 ```CTRL+ALT+HOME``` is bound to send ```$unmutechannel``` into the text channel currently open in Discord.
+
+**INSTRUCTIONS** </br>
+In the root directory of the repository, create a .env file with the following lines: </br>
+```DISCORD_TOKEN={your-bot-token}``` 
